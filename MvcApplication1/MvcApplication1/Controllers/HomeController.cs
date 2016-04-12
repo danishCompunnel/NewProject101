@@ -10,8 +10,10 @@ namespace MvcApplication1.Controllers
     {
         public ActionResult Index()
         {
+            var nevar = 0;
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
+            // New Line
+            // Comment for Mr. Madhab
             return View();
         }
 
@@ -28,5 +30,24 @@ namespace MvcApplication1.Controllers
 
             return View();
         }
+
+
+
+
+
+
+        public ActionResult NEwMethodActionResult()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+
+
+
+
+
+
     }
 }
