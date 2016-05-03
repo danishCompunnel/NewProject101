@@ -12,6 +12,9 @@ namespace MvcApplication1.Controllers
         {
             var nevar = 0;
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Test = 6700;
+
+
             // New Line
             // Comment for Mr. Madhab
             return View();
