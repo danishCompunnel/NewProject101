@@ -15,6 +15,9 @@
 var
 	// A central reference to the root jQuery(document)
 	rootjQuery,
+    // Commit 1010
+    //comment 102
+    //comment 103
 
 	// The deferred used on DOM ready
 	readyList,
@@ -1272,6 +1275,10 @@ jQuery.support = (function() {
 	input = div.getElementsByTagName("input")[ 0 ];
 
 	support = {
+
+        // change 12
+        // change 67
+
 		// IE strips leading whitespace when .innerHTML is used
 		leadingWhitespace: ( div.firstChild.nodeType === 3 ),
 
